@@ -1,0 +1,87 @@
+body {
+    margin: 50px 50px;
+    background-color: #1F2937;
+    font-family: "Karla", sans-serif;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #D5D4D8;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+.green {
+    color: #4ADF86;
+}
+
+.btn {
+    background-color: #10B981;
+    color: white;
+    font-size: 16px;
+    font-family: "Karla", sans-serif;
+    padding: 9px 16px;
+    border-radius: 6px;
+    border: none;
+    margin: 0px 10px;
+    min-width: 180px;
+}
+
+#generator {
+    margin: 20px 0;
+}
+
+.line {
+    margin-top: 30px;
+    border: 1px solid #2F3E53 
+}
+
+.h-group {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: 10px;
+    
+}
+
+.v-group {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.parameter {
+    justify-content: space-between;
+    
+}
+
+.password {
+    margin: 40px 10px; 
+    color: #55F991;
+    background-color: #273549;
+    padding: 4px 15px;
+    min-width: 180px;
+    min-height: 30px;    
+    border-radius: 6px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;  
+}
+
+#password_length {
+    border-radius: 6px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 30px;
+    
+}
+
+#hasNumberSymbol {
+    margin-top: 20px;
+}
